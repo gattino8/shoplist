@@ -8,7 +8,7 @@ import java.util.Scanner;
 class ShoppingListApplication {
 
     public static void main(String[] args) {
-        Map<Long, Product> productRepository = new HashMap<>();
+        Map<Long, Product> productRepository = new HashMap<>();//testik
         Long productIdSequence = 0L;
         while (true) {
             Scanner scanner = new Scanner(System.in);
