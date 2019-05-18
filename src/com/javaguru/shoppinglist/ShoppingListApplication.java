@@ -13,7 +13,7 @@ class ShoppingListApplication {
         while (true) {
             Scanner scanner = new Scanner(System.in);
             try {
-                System.out.println("1. Create product");
+                System.out.println("1. Create product");//comemmmm
                 System.out.println("2. Find product by id");
                 System.out.println("3. Exit");
                 Integer userInput = Integer.valueOf(scanner.nextLine());
