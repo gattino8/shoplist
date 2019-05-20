@@ -6,7 +6,7 @@ public class Product {
 
     private Long id;
     private String name;
-    private BigDecimal price;//comment
+    private BigDecimal price;
 
     public Long getId() {
         return id;
